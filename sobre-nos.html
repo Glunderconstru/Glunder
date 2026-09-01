@@ -1,1 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Sobre Nós — Nome da Empresa</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:22px 15px;
+}
+
+header h1{
+    font-size:30px;
+}
+
+header p{
+    color:#ddd;
+}
+
+nav{
+    background:#444;
+    padding:12px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    margin:5px 8px;
+    display:inline-block;
+}
+
+nav a:hover{
+    color:#ffc107;
+}
+
+/* TÍTULO DA PÁGINA */
+
+.page-title{
+    background:#222;
+    color:white;
+    padding:40px 20px;
+    text-align:center;
+}
+
+.page-title h1{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+/* SEÇÕES */
+
+section{
+    max-width:1100px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+.titulo{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.titulo h2{
+    color:#222;
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.titulo p{
+    color:#666;
+    font-size:16px;
+}
+
+.conteudo{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+    margin-bottom:30px;
+}
+
+.conteudo h3{
+    color:#222;
+    font-size:24px;
+    margin-bottom:15px;
+    margin-top:20px;
+}
+
+.conteudo h3:first-child{
+    margin-top:0;
+}
+
+.conteudo p{
+    margin-bottom:15px;
+    line-height:1.8;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+    text-align:center;
+}
+
+.card .icone{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.card h4{
+    color:#222;
+    margin-bottom:10px;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
+}
+
+@media(max-width:600px){
+    .page-title h1{
+        font-size:28px;
+    }
+    
+    .titulo h2{
+        font-size:24px;
+    }
+    
+    .conteudo{
+        padding:20px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Nome da Sua Empresa</h1>
+    <p>Qualidade, profissionalismo e confiança</p>
+</header>
+
+<nav>
+    <a href="index.html">Início</a>
+    <a href="servicos-realizados.html">Serviços Realizados</a>
+    <a href="sobre-nos.html">Sobre Nós</a>
+    <a href="nossos-servicos.html">Nossos Serviços</a>
+    <a href="ferramentas.html">Ferramentas</a>
+    <a href="materiais.html">Materiais</a>
+</nav>
+
+<div class="page-title">
+    <h1>Sobre Nós</h1>
+    <p>Conheça nossa história e valores</p>
+</div>
+
+<section>
+    <div class="conteudo">
+        <h3>Nossa História</h3>
+        <p>
+            A nossa empresa foi fundada com o objetivo de oferecer soluções de qualidade 
+            e um atendimento diferenciado no mercado. Desde o início, nos dedicamos a 
+            construir relacionamentos duradouros com nossos clientes, baseados em 
+            confiança, transparência e excelência no trabalho.
+        </p>
+        
+        <h3>Nossa Missão</h3>
+        <p>
+            Oferecer produtos e serviços de alta qualidade que atendam às necessidades 
+            de nossos clientes, contribuindo para o seu sucesso e crescimento.
+        </p>
+        
+        <h3>Nossa Visão</h3>
+        <p>
+            Ser a empresa mais confiável e reconhecida no mercado, conhecida pela qualidade 
+            de seus serviços e pelo comprometimento com a satisfação do cliente.
+        </p>
+        
+        <h3>Nossos Valores</h3>
+        <p>
+            Acreditamos em valores fundamentais que guiam todas as nossas ações:
+        </p>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <div class="icone">🏆</div>
+            <h4>Qualidade</h4>
+            <p>Compromisso com excelência em tudo que fazemos</p>
+        </div>
+        
+        <div class="card">
+            <div class="icone">🤝</div>
+            <h4>Confiança</h4>
+            <p>Transparência e honestidade em todos os relacionamentos</p>
+        </div>
+        
+        <div class="card">
+            <div class="icone">💡</div>
+            <h4>Inovação</h4>
+            <p>Buscamos constantemente novas formas de melhorar</p>
+        </div>
+        
+        <div class="card">
+            <div class="icone">👥</div>
+            <h4>Equipe</h4>
+            <p>Nossos colaboradores são nosso maior diferencial</p>
+        </div>
+    </div>
+
+    <div class="conteudo" style="margin-top:30px;">
+        <h3>Por Que Escolher a Gente?</h3>
+        <p>
+            ✓ <strong>Experiência:</strong> Anos de experiência no mercado<br><br>
+            ✓ <strong>Profissionalismo:</strong> Equipe treinada e qualificada<br><br>
+            ✓ <strong>Qualidade:</strong> Produtos e serviços de alto padrão<br><br>
+            ✓ <strong>Atendimento:</strong> Suporte dedicado ao cliente<br><br>
+            ✓ <strong>Confiabilidade:</strong> Compromisso com prazos e qualidade
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>
+        © 2026 Nome da Sua Empresa —
+        Todos os direitos reservados
+    </p>
+</footer>
+
+</body>
+</html>
